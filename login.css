@@ -1,0 +1,51 @@
+body {
+  background-color: #222;
+  font-family: 'Roboto', sans-serif;
+}
+
+.enviar{
+  background-color: #3399FF;
+  border-radius: 5px;
+  font-size: 150%;
+  color: #F0F8FF;
+  padding: 20px;
+  margin: 5px;
+}
+
+.enviar:hover{
+  background-color: rgb(33, 120, 207);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.formulario{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.input-padrao{
+  background-color: #888;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 5px;
+  font-size: 150%;
+}
+
+.logo_imagem{
+  margin-left: 300px;
+  width: 60%;
+}
+
+
+
+.titulo_principal{
+  text-align: center;
+  color: #F0F8FF;
+}
+
+::placeholder{
+  color: #F0F8FF;
+  text-align: center;
+}
